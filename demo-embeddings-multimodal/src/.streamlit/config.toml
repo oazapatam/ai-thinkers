@@ -1,0 +1,12 @@
+# Configuracion de interfaz.py (Streamlit la lee desde el directorio donde se lanza: src/).
+# Para abrirla desde otro equipo de la red: --server.address 0.0.0.0
+
+[server]
+address = "localhost"
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

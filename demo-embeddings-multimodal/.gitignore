@@ -1,0 +1,10 @@
+# entorno y archivos de ejecucion
+.venv/
+__pycache__/
+.run/
+
+# todo lo que se genera en local y no se publica: el corpus y sus etiquetas
+# (generar_dataset.py), embeddings en cache, paginas rasterizadas, carpetas
+# clasificadas, resultados y figuras (clasificar.py, evaluar.py)
+data/
+figuras/
